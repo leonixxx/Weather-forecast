@@ -1,0 +1,106 @@
+body {
+	background-color: rgb(150, 152, 154);
+    height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: Roboto;
+}
+.main {
+	background-color: white;
+	width: 600px;
+	height: 400px;
+}
+.main__container {
+    padding: 10px;
+    padding-bottom: 0;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+.add-Town {
+    height: 39px;
+    font-size: 18px;
+    width: 95%;
+    border: none;
+}
+.send-Town {
+    border: none;
+    background: none;
+}
+.mini-container {
+    height: 337px;
+    width: 578px;
+    margin: 0 10px 0;
+    padding: 0;
+    display: flex;
+    border: 1px solid black;
+    border-top: none;
+}
+.show {
+    width: calc(50% - 30px);
+    position: relative;
+    padding: 15px;
+}
+.degree-container {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container-cloud {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 95px;
+}
+.container-cloud1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.city {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.location {
+    width: 50%;
+    font-size: 24px;
+}
+.location__title {
+    height: 60px;
+    width: 100% - 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.location__history {
+    border-left: 1px solid black;
+    height: 72.5%;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.location-list__value {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    background-color: transparent;
+    outline: none;
+}
